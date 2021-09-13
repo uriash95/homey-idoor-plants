@@ -1,0 +1,214 @@
+/* here starts the home page */
+@font-face {
+    font-family: 'Bebas Neue', cursive;
+    src: url(../font/BebasNeue/BebasNeue-Regular.ttf);
+}
+
+body {
+    background-color: rgba(29, 41, 56, 0.911);
+    color: white;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(../img/BG/leaves.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    
+}
+
+nav {
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 42%; 
+    margin-left: -150px;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.6rem 0.8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(87, 87, 216, 0.541);
+    text-transform:uppercase;
+    
+}
+/* figure img {
+    width: 33%;
+} */
+
+.img-div {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    
+}
+.h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+i {
+    width: 100px;
+    text-align: center;
+}
+
+.hp-imgs {
+    margin-bottom: 100px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.tbp-p {
+text-align: center;
+font-size: 35px;
+}
+
+.items-hp {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.visibilityHidden span {
+    visibility: hidden;
+   }
+.visibilityHidden:hover span {
+    visibility: visible;
+   }
+
+
+
+/* here starts the information page */
+
+#info-body {
+    background-image: url(../img/BG/leaves.jpg);
+    font-size: 18px;
+}
+
+#items-info {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h1-info {
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.info-oxy-img {
+    text-align: center;
+    border: solid rgba(255, 255, 255, 0.432) 5px;
+    width: 767px;
+    height: 478px;
+    margin-left: 355px;
+}
+
+/* here starts the shop page */
+
+.h2shop {
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+
+
+.shop-imgs-class {
+    margin-left: 100px;
+}
+
+.i-shop {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.shop-imgs-class {
+    font-size: 18px;
+}
+
+/* 
+here starts the Registration page */
+
+.h2-reg {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+.box-reg {
+    width: 10% ;
+    display: inline-block;
+    border:solid 5px rgba(255, 255, 255, 0.76);
+    width: 450px;
+    height: 280px;
+    position:fixed; 
+    background-image: url(../img/BG/bgbox2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white(255, 255, 255);
+    z-index: +2 ;
+    right: 3px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-right: 100px;
+    padding-right: 40px;
+    padding-left: 20px;
+    
+}
+
+.box-code {
+    text-decoration: none;
+    color: white;
+}
+
+.form {
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+/* here starts the contact page */
+
+.h1-contact {
+text-align: center;
+margin-top: 100px;
+}
+
+.h2-contact {
+text-align: center;
+}
+
+.h3-contact {
+text-align: center;
+}
+
+.form-contact {
+margin-bottom: 100px;
+text-align: center;
+}
+
+#items {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
